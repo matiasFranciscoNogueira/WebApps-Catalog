@@ -2,4 +2,4 @@ services:
   app-1:
     image: nginx:alpine
     ports:
-      - "80"
+      - "9000:80"
